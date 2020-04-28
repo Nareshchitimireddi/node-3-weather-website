@@ -8,7 +8,6 @@ const forecast = (lat, lon, callback) => {
     lon +
     "&units=metric&appid=78ad033916a97b6214f46a65719c0a1b";
 
-  console.log(url);
   request(
     {
       url,
